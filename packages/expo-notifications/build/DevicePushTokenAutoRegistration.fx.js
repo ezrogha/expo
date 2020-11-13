@@ -24,6 +24,9 @@ export async function removeAutoServerRegistrationAsync() {
     // Do not consider any registration when token updates.
     await ServerRegistrationModule.setLastRegistrationInfoAsync?.(null);
 }
+/**
+ * This function is exported only for testing purposes.
+ */
 export async function __handlePersistedRegistrationInfoAsync(lastRegistrationInfo) {
     if (!lastRegistrationInfo) {
         // No last registration info, nothing to do
