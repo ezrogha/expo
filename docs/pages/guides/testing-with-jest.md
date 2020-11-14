@@ -24,11 +24,11 @@ Then we need to add/update `package.json` to include:
 
 Now let's add react-test-renderer to our project:
 
-`yarn add react-test-renderer --dev` **or** `npm i react-test-renderer --save-dev`
+`yarn add @testing-library/react-native --dev` **or** `npm i @testing-library/react-native --save-dev`
 
 That's it! Now we can start writing Jest tests!
 
-> **Note**: [react-native-testing-library](https://github.com/callstack/react-native-testing-library) is a library built on top of react-test-renderer that could be helpful in your workflow, but we won't cover it in this guide.
+> **Note**: [@testing-library/react-native](https://github.com/callstack/react-native-testing-library) is a library built on top of react-test-renderer that could be helpful in your workflow, but we won't cover it in this guide.
 
 ## Jest Configuration
 
